@@ -1,0 +1,1 @@
+#youtubeURL regex = /^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.?be)\/(watch\?v=|embed\/|v\/|.+\?v=)?([^&=\n%\?]{11})/

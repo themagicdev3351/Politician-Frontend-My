@@ -1,0 +1,25 @@
+/* **************************** SIGNIN CSS ************************************* */
+.image-container {
+  width: 100%; /* Full width of the parent */
+  height: 96vh;
+  padding: 0.7rem;
+  margin-top: 1rem;
+  box-sizing: border-box; /* Includes padding in the element's total width and height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensures that the image doesn't overflow the container */
+  background-color: #f0f0f0; /* Optional: background color for the container */
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.image-container img {
+  border-radius: 50px;
+  width: 100%;
+  height: auto; 
+  object-fit: cover; 
+  object-position: center;
+  border-radius: 100px;
+}
+/* ******************************************************************************* */
