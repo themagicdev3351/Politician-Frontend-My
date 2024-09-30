@@ -111,6 +111,8 @@ export default function App() {
   const [rtlCache, setRtlCache] = useState(null);
   const { pathname } = useLocation();
 
+  axios.defaults.baseURL = 'http://ec2-3-110-87-15.ap-south-1.compute.amazonaws.com:5003';
+
   // Cache for the rtl
   useMemo(() => {
     const cacheRtl = createCache({
